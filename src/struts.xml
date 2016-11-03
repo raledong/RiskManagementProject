@@ -4,8 +4,6 @@
       "http://struts.apache.org/dtds/struts-2.0.dtd">
   <struts>
   
-  
-  
 	<!-- 网页页面 -->
       <package name="webpage" namespace=""
           extends="struts-default">
