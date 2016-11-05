@@ -2,11 +2,11 @@ node {
     stage('SCM') {
         git 'https://github.com/raledong/RiskManagementProject.git'
     }
-    /*
+    
     stage('QA') {
         sh 'sonar-scanner'
     }
-    */
+    
     stage('build') {
         def mvnHome = tool 'M3'
         sh "${mvnHome}/bin/mvn -B clean package"
